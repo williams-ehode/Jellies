@@ -1,0 +1,29 @@
+.carousel-inner img {
+    max-height: 600px; /* Limit the maximum height */
+    width: 100%; /* Ensure the width is responsive */
+    object-fit: cover;
+    padding: 30px;
+  }
+
+
+  .btn-ghost {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: lighter;
+    /*opacity: 0.6;*/
+    /*transition: opacity 0.3s ease;*/
+    margin: 30px;
+    background-color: #25ced1;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .btn-ghost:hover {
+    opacity: 1;
+    color: #ff8a5b;
+    background-color: #fceade;
+    border: 2px solid #ff8a5b;
+    transform: scale(1.1); /* Slightly enlarge the text */
+  }
+  

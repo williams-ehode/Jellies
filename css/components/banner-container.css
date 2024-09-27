@@ -1,0 +1,19 @@
+/* Banner container styling */
+.banner-container {
+    width: 100%; /* Full-width banner */
+    height: auto; /* Automatically adjust height */
+    overflow: hidden; /* Hide any overflow */
+    
+}
+
+/* Styling for the GIF as a banner */
+.banner-gif {
+    width: 100%; /* Full-width banner */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes the small gap below the image */
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+

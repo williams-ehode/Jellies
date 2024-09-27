@@ -1,0 +1,51 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #fceade;
+  padding: 20px;
+  position: fixed; /* Fixes navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures full-width navbar */
+  z-index: 1000; /* Ensures the navbar is above other elements */
+}
+  
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand {
+  display: flex;
+  align-items: center; /* Align text vertically with the logo */
+}
+  
+.navbar-lewagon .navbar-brand img {
+  width: 70px;
+  height: 62px;
+  border-radius: 50%;
+  margin-right: 10px;/* Space between logo and text */
+  
+}
+
+.navbar-lewagon .navbar-brand .navbar-text {
+  font-size: 30px; /* Adjust size of the text next to the logo */
+  color: #ea526f; /* Change the color if necessary */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar-lewagon .navbar-brand .navbar-text:hover {
+  color: #ff6347; /* Change color on hover (e.g., tomato) */
+  transform: scale(1.1); /* Slightly enlarge the text */
+}
+
+/* Style for the nav links */
+.navbar-lewagon .nav-link {
+  font-size: 15px;
+  color: #000000; /* Default color for nav items */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on the nav links */
+.navbar-lewagon .nav-link:hover {
+  color: #ff6347; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
